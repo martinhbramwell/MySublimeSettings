@@ -7,6 +7,10 @@ How I synch my Sublime Text 3 settings between all machine
 
 ### Depends on
 
+    [nvm](https://github.com/creationix/nvm#install-script)
+    
+    nvm install 4.8.3
+    
     npm install -g eslint 
     npm install -g babel-eslint 
     npm install -g eslint-plugin-react
