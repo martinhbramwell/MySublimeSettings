@@ -3,11 +3,11 @@ How I synch my Sublime Text 3 settings between all machine
 
 ### Replaces the directory 
 
-    /home/you/.config/sublime-text-3/Packages/User/
+    ${HOME}/.config/sublime-text-3/Packages/User/
 
 ### Depends on
 
-    [nvm](https://github.com/creationix/nvm#install-script)
+[nvm](https://github.com/creationix/nvm#install-script)
     
     nvm install 4.8.3
     
