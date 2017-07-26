@@ -1,17 +1,21 @@
 # MySublimeSettings
 How I synch my Sublime Text 3 settings between all machine
 
-Replaces the directory 
+### Replaces the directory 
 
     /home/you/.config/sublime-text-3/Packages/User/
 
-Depends on
+### Depends on
 
     npm install -g eslint 
     npm install -g babel-eslint 
     npm install -g eslint-plugin-react
+    
+### Also needs
 
-Set up
+[Package Control](https://packagecontrol.io/installation)
+
+### Set up
 
     pushd ${HOME}/.config/sublime-text-3/Packages;
     mv User User_$(date +%Y%m%d%H%M%S);
